@@ -10,8 +10,8 @@ const Headersection = () => {
         <>
             <div className='max-w-[1215px] mx-auto px-3 py-12' data-aos="fade-up">
                 <div className='flex flex-wrap flex-row -mx-3'>
-                    <div className='lg:w-1/2 w-full px-3 pt-8 lg:pt-0'>
-                        <div className='flex gap-5 relative after:absolute after:w-[232px] after:h-[1px] after:bg-[#E5E5E5] after:bottom-[-12%] after:left-[0%]'>
+                    <div className='lg:w-1/2 w-full px-3'>
+                        <div className='flex gap-5 relative after:absolute after:w-[232px] after:h-[1px] after:bg-[#E5E5E5] after:bottom-[-12%] after:left-[0%] mx-auto lg:mx-0 max-w-[250px]'>
                             <button onClick={() => handleTab('tab1')} className={`${activeTab === "tab1" ? "!text-[#B00000] relative after:w-full after:h-[1px] after:absolute after:-bottom-[2px] after:left-0 after:bg-[#B00000]" : ""} ff-poppins text-[15px] font-semibold text-[#dbd9d9]`}>Hosting</button>
                             <button onClick={() => handleTab('tab2')} className={`${activeTab === "tab2" ? "!text-[#B00000] relative after:w-full after:h-[1px] after:absolute after:-bottom-[2px]  after:left-0  after:bg-[#B00000]" : ""} ff-poppins text-[15px] font-semibold text-[#dbd9d9]`}>Domain</button>
                             <button onClick={() => handleTab('tab3')} className={`${activeTab === "tab3" ? "!text-[#B00000] relative after:w-full after:h-[1px] after:absolute after:-bottom-[2px]  after:left-0  after:bg-[#B00000]" : ""} ff-poppins text-[15px] font-semibold text-[#dbd9d9]`}>SEO </button>

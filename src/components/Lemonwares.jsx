@@ -106,7 +106,7 @@ const Lemonwares = () => {
     ));
     return (
         <>
-            <div className='max-w-[1097px] mx-auto px-3 pb-8' data-aos="fade-up"
+            <div className='max-w-[1097px] mx-auto px-3 pb-8 overflow-hidden' data-aos="fade-up"
                 data-aos-anchor-placement="center-bottom">
                 <h2 className='font-poppins text-[40px] sm:text-[50px] font-semibold text-black text-center max-w-[650px] mx-auto'>Ready to get started with
                     Lemon Wares?</h2>
@@ -120,9 +120,9 @@ const Lemonwares = () => {
                     <button className='font-poppins text-[10px] font-medium text-black rounded-[8px] bg-[#FFE87A] p-[7px_8px]'>20%  discount</button>
                 </div>
 
-                <div className='flex gap-12 mx-auto pt-12 max-w-[850px] relative after:absolute after:bottom-[-4%] after:left-[2%] after:bg-[#c4c4c4] after:w-[856px] after:h-[4px] z-0'>
-                    <button onClick={() => handleTab('tab1')} className={`${activeTab === "tab1" ? " relative after:absolute after:w-[403px] after:h-[4px] after:bg-[#b00000] after:bottom-[-8%] after:left-[3%] z-[2]" : ""} text-[30px] text-black font-semibold font-poppins w-[443px]`}>Basic</button>
-                    <button onClick={() => handleTab('tab2')} className={`${activeTab === "tab2" ? "after:absolute after:w-[463px] after:h-[4px] after:bg-[#b00000] after:bottom-[-5%] after:right-[-3%] z-[2]" : ""}  text-[30px] text-black font-semibold font-poppins w-[443px]`}>Premium</button>
+                <div className='flex gap-12 mx-auto pt-12 max-w-[850px] relative after:absolute after:bottom-[-4%] after:left-[2%] after:bg-[#c4c4c4] after:w-[93%] lg:after:w-[856px] after:h-[4px] z-0'>
+                    <button onClick={() => handleTab('tab1')} className={`${activeTab === "tab1" ? " relative after:absolute lg:after:w-[403px] after:w-[100%] after:h-[4px] after:bg-[#b00000] after:bottom-[-8%] after:left-[3%] z-[2]" : ""} text-[30px] text-black font-semibold font-poppins lg:w-[443px] w-[50%]`}>Basic</button>
+                    <button onClick={() => handleTab('tab2')} className={`${activeTab === "tab2" ? "after:absolute lg:after:w-[463px] after:h-[4px] after:w-[50%] after:bg-[#b00000] after:bottom-[-5%] after:right-[-3%] z-[2]" : ""}  text-[30px] text-black font-semibold font-poppins lg:w-[443px] w-[50%]`}>Premium</button>
                 </div>
                 {/* <h1> {activeTab} </h1> */}
                 {activeTab === 'tab1' && <p className='fw-bold'>tab1 is Active</p>}

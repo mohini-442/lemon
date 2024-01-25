@@ -20,39 +20,39 @@ const Websites = () => {
                     <div className='lg:w-1/2 w-full px-3 mt-12 lg:mt-0' data-aos="fade-up"
                         data-aos-anchor-placement="top-bottom">
                         <div className='flex flex-wrap flex-row -mx-3'>
-                            <div className='w-1/3 px-3 flex items-center justify-center' data-aos="fade-up"
+                            <div className='sm:w-1/3 w-1/2 px-3 flex items-center justify-center' data-aos="fade-up"
                                 data-aos-anchor-placement="top-bottom">
-                                <div className='max-w-[172px] h-[92px]'>
+                                <div className='w-[222px] h-[112px] flex items-center justify-center duration-[.5s] hover:shadow-[0px_0px_4px_0px_#00000040]' data-aos="flip-left">
                                     <img src={pic1} alt="cpanel" />
                                 </div>
                             </div>
-                            <div className='w-1/3 px-3 flex items-center justify-center' data-aos="fade-up"
+                            <div className='sm:w-1/3 w-1/2 px-3 flex items-center justify-center' data-aos="fade-up"
                                 data-aos-anchor-placement="top-bottom">
-                                <div className='max-w-[172px] h-[92px]'>
+                                <div className='w-[222px] h-[112px] flex items-center justify-center duration-[.5s] hover:shadow-[0px_0px_4px_0px_#00000040]' data-aos="flip-left">
                                     <img src={pic2} alt="imufy" />
                                 </div>
                             </div>
-                            <div className='w-1/3 px-3 flex items-center justify-center' data-aos="fade-up"
+                            <div className='sm:w-1/3 w-1/2 px-3 flex items-center justify-center' data-aos="fade-up"
                                 data-aos-anchor-placement="top-bottom">
-                                <div className='max-w-[172px] h-[92px]'>
+                                <div className='w-[222px] h-[112px] flex items-center justify-center duration-[.5s] hover:shadow-[0px_0px_4px_0px_#00000040]' data-aos="flip-left">
                                     <img src={pic3} alt="litespeed" />
                                 </div>
                             </div>
                             <div className='sm:w-1/3 w-1/2 px-3 flex items-center justify-center' data-aos="fade-up"
                                 data-aos-anchor-placement="top-bottom">
-                                <div className='max-w-[172px] h-[92px]'>
+                                <div className='w-[222px] h-[112px] flex items-center justify-center duration-[.5s] hover:shadow-[0px_0px_4px_0px_#00000040]' data-aos="flip-left">
                                     <img src={pic4} alt="softa" className='pt-4' />
                                 </div>
                             </div>
                             <div className='sm:w-1/3 w-1/2 px-3 flex items-center justify-center' data-aos="fade-up"
                                 data-aos-anchor-placement="top-bottom">
-                                <div className='max-w-[172px] h-[92px]'>
+                                <div className='w-[222px] h-[112px] flex items-center justify-center duration-[.5s] hover:shadow-[0px_0px_4px_0px_#00000040]' data-aos="flip-left">
                                     <img src={pic5} alt="wordpress" className='pt-4' />
                                 </div>
                             </div>
                             <div className='sm:w-1/3 w-1/2 px-3 flex items-center justify-center' data-aos="fade-up"
                                 data-aos-anchor-placement="top-bottom">
-                                <div className='max-w-[172px] h-[92px]'>
+                                <div className='w-[222px] h-[112px] flex items-center justify-center duration-[.5s] hover:shadow-[0px_0px_4px_0px_#00000040]' data-aos="flip-left">
                                     <img src={pic6} alt="cloud" className='pt-4' />
                                 </div>
                             </div>
