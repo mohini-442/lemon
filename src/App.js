@@ -1,24 +1,40 @@
-import logo from './logo.svg';
 import './App.css';
+import { useEffect } from 'react';
+import Headersection from './components/Headersection';
+import Lemonwares from './components/Lemonwares';
+import Mynav from './components/Mynav';
+import Realstories from './components/Realstories';
+import Section2 from './components/Section2';
+import Webhosting from './components/Webhosting';
+import Websites from './components/Websites';
+import Aweesome from './components/Aweesome';
+import Myfooter from './components/Myfooter';
+import AOS from "aos";
+import "aos/dist/aos.css";
+import Backtotop from './components/Backtotop';
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      disable: "phone",
+      duration: 700,
+      easing: "ease-out-cubic",
+      once: true,
+    });
+  }, []);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Mynav />
+      <Headersection />
+      <Webhosting />
+      <Section2 />
+      <Lemonwares />
+      <Realstories />
+      <Websites />
+      <Aweesome />
+      <Myfooter />
+      <Backtotop/>
+    </>
   );
 }
 
