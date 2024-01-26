@@ -35,7 +35,7 @@ const Lemonwares = () => {
     const data = myArray.map((myArray, i) => (
         <div className="lg:w-1/3 sm:w-1/2 w-full px-3  justify-center flex mb-5 " >
             <div
-                className="card max-w-[299px] w-full rounded-[15px] max-lg:mt-3 border-[1.5px] border-[#C4C4C4] shadow-[0px_0px_4px_0px_#00000040] bg-white md:pt-[34px] sm:pt-7 pt-6 md:pb-12 sm:pb-10 pb-8 md:pl-[35px] pl-7 md:pr-[28px] pr-5 hover:scale-[1.02]" data-aos="flip-right" data-aos-easing="linear"
+                className="card max-w-[299px] w-full rounded-[15px] max-lg:mt-3 border-[1.5px] border-[#C4C4C4] shadow-[0px_0px_4px_0px_#00000040] bg-white md:pt-[34px] sm:pt-7 pt-6 md:pb-12 sm:pb-10 pb-8 md:pl-[35px] pl-7 md:pr-[28px] pr-5 hover:scale-110" data-aos="flip-right" data-aos-easing="linear"
                 data-aos-duration="1000"
             >
                 <p className="text-black font-poppins text-[28px] font-semibold leading-[89.286%]">
@@ -215,7 +215,7 @@ const Lemonwares = () => {
 
     return (
         <div className="sm:pt-2">
-            <div className="container max-w-[1097px] mx-auto px-3" id="2">
+            <div className="container max-w-[1097px] mx-auto px-3">
                 <div className="flex justify-center flex-col">
                     <h2 className="text-black font-poppins text-center mx-auto lg:text-[50px] md:text-5xl sm:text-4xl text-[42px] font-semibold leading-[48px] md:leading-[60px]  max-w-[650px]">
                         Ready to get started with Lemon Wares?
