@@ -1,5 +1,7 @@
 import './App.css';
 import { useEffect } from 'react';
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Headersection from './components/Headersection';
 import Lemonwares from './components/Lemonwares';
 import Mynav from './components/Mynav';
@@ -9,9 +11,9 @@ import Webhosting from './components/Webhosting';
 import Websites from './components/Websites';
 import Aweesome from './components/Aweesome';
 import Myfooter from './components/Myfooter';
-import AOS from "aos";
-import "aos/dist/aos.css";
 import Backtotop from './components/Backtotop';
+import Loader from './components/Loader';
+
 
 function App() {
   useEffect(() => {
@@ -24,6 +26,7 @@ function App() {
   }, []);
   return (
     <>
+      <Loader/>
       <Mynav />
       <Headersection />
       <Webhosting />
@@ -33,7 +36,7 @@ function App() {
       <Websites />
       <Aweesome />
       <Myfooter />
-      <Backtotop/>
+      <Backtotop />
     </>
   );
 }

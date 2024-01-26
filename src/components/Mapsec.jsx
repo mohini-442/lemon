@@ -29,8 +29,8 @@ const card1 = [
 
 const Mapsec = () => {
     const list = card1.map((card1, m) => (
-        <div className='lg:w-1/4 md:w-1/3 sm:w-1/2 w-full px-3 '>
-            <div className='flex justify-center items-center flex-col max-w-[300px] h-[300px] hover:scale-[1.01] rounded-[40px] duration-[.5s] hover:shadow-[0px_0px_4px_0px_#00000040] mx-auto' data-aos="zoom-in-up">
+        <div className='lg:w-1/4 md:w-1/2 sm:w-1/2 w-full px-3 '>
+            <div className='flex justify-center items-center flex-col max-w-[300px] h-[300px] hover:scale-[1.01] rounded-[40px] duration-[.5s] hover:shadow-[0px_0px_4px_0px_#00000040] mx-auto p-[12px]' data-aos="zoom-in-up">
                 <div className='w-[100px] h-[100px] bg-[#f3d9d9] rounded-[50%]'>
                     <img src={card1.svg} alt="svg" className='mx-auto' />
                 </div>

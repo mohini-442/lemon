@@ -1,5 +1,7 @@
 import React from "react";
 import footlogo from '../assets/images/footerlogo.png'
+const dates = new Date();
+const year = dates.getFullYear();
 
 const Myfooter = () => {
     return (
@@ -158,7 +160,7 @@ const Myfooter = () => {
                         </div>
                     </div>
                 </div>
-                <p className="text-white font-inter text-base leading-[200%] flex items-center gap-1 font-normal">
+                <p className="text-white font-inter text-[12px] sm:text-[16px] leading-[200%] flex items-center gap-1 font-normal">
                     Built by Jeremiah with{" "}
                     <sapn>
                         <svg
@@ -174,7 +176,7 @@ const Myfooter = () => {
                             />
                         </svg>
                     </sapn>{" "}
-                    in Lagos. Copyright 2021
+                    in Lagos. Copyright {year}
                 </p>
             </div>
         </div>

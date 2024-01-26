@@ -12,8 +12,8 @@ const Realstories = () => {
                 <div className='flex flex-wrap flex-row -mx-3'>
                     <div className='lg:w-1/2 w-full px-3 flex flex-col lg:items-end items-center' data-aos="zoom-in-right">
                         <div className='relative z-2'>
-                            <img src={colon} alt="colon" className='absolute top-[-32%] lg:left-[-21%] left-0 z-[-1]' />
-                            <h2 className=' font-inter text-[48px] font-extrabold text-[#18191F] text-center lg:text-start leading-[58px]'>Real Stories from Real Customers</h2>
+                            <img src={colon} alt="colon" className='absolute top-[-32%] lg:left-[-21%] left-0 z-[-1] ' />
+                            <h2 className=' font-inter text-[42px] sm:text-[48px] font-extrabold text-[#18191F] text-center lg:text-start leading-[50px] sm:leading-[58px]'>Real Stories from Real Customers</h2>
                             <p className='font-inter text-[18px] font-normal text-[#18191F] text-center lg:text-start'>Get inspired by these stories.</p>
                         </div>
                         <div className='rounded-[8px] shadow-[0px_10px_20px_0px_#29292A12] lg:p-[7px_32px_96px_64px] p-[7px_32px_46px_64px] w-full lg:max-w-[350px] mt-8 relative hover:scale-[1.01] duration-[.5s]' data-aos="zoom-in-right">
