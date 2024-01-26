@@ -14,7 +14,7 @@ const Mynav = () => {
     }
     return (
         <>
-            <div className='max-w-[1215px] mx-auto px-3 py-5'>
+            <div className='max-w-[1215px] mx-auto px-3 sm:py-5 py-3'>
                 <div className='max-w-[1060px]'>
                     <div className='flex items-center justify-between'>
                         <div className='flex items-center'>
