@@ -6,7 +6,7 @@ import t2 from '../assets/images/t2.png'
 const Aweesome = () => {
     return (
         <>
-            <div className='max-w-[1272px] mx-auto px-3 rounded-[16px] bg-[#F7FAFE] pt-10 pb-20 mb-24 mt-18 relative' data-aos="fade-up"
+            <div className='max-w-[1272px] mx-auto px-3 rounded-[16px] bg-[#F7FAFE] pt-10 pb-20 mb-10 sm:mb-24 mt-18 relative' data-aos="fade-up"
                 data-aos-anchor-placement="top-bottom">
                 <div>
                     <h2 className='font-poppins md:text-[64px] text-[42px] font-semibold text-[#2E2E2E] text-center max-w-[1042px] mx-auto py-10 leading-[62px] lg:leading-[88px]' data-aos="fade-up"
@@ -20,7 +20,7 @@ const Aweesome = () => {
                     </span>
                     <span className='text-white group-hover:text-black duration-300 relative z-10 text-[14px] font-normal font-poppins text-nowrap'>Get  in touch with us</span>
                 </a>
-                <img src={t1} alt="t1" className='absolute bottom-[8%] xl:right-[-2%] right-0 hidden md:block'/>
+                <img src={t1} alt="t1" className='absolute bottom-[8%] xxl:right-[-2%] right-0 hidden md:block'/>
                 <img src={t2} alt="t2" className='absolute top-[0%] left-[36%] hidden md:block'/>
                 <img src={t3} alt="t1" className='absolute bottom-[21%] xl:left-[-1%] left-0 hidden md:block'/>
             </div>

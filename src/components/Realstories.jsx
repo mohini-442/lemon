@@ -8,7 +8,7 @@ import leevon from '../assets/images/leeve.png'
 const Realstories = () => {
     return (
         <>
-            <div className='max-w-[960px] mx-auto px-3 pt-28'>
+            <div className='max-w-[960px] mx-auto px-3 pt-20 sm:pt-28'>
                 <div className='flex flex-wrap flex-row -mx-3'>
                     <div className='lg:w-1/2 w-full px-3 flex flex-col lg:items-end items-center' data-aos="zoom-in-right">
                         <div className='relative z-2'>

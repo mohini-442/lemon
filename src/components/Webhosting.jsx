@@ -9,7 +9,7 @@ import cloud from '../assets/images/cloudflare.png'
 const Webhosting = () => {
     return (
         <>
-            <div className='max-w-[1284px] mx-auto px-3 py-12'>
+            <div className='max-w-[1284px] mx-auto px-3 py-5 sm:py-12' id='1'>
                 <div className='flex flex-wrap flex-row -mx-3'>
                     <div className='lg:w-1/2 w-full px-3' data-aos="fade-up">
                         <h2 className='text-grey-900 font-inter text-[38px] sm:text-[48px] font-extrabold text-center lg:text-start' data-aos="fade-up">True Cloud Web  Hosting</h2>

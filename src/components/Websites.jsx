@@ -9,7 +9,7 @@ import pic6 from '../assets/images/pic6.png'
 const Websites = () => {
     return (
         <>
-            <div className='max-w-[1194px] mx-auto px-3 py-28'>
+            <div className='max-w-[1194px] mx-auto px-3 py-12 sm:py-28'>
                 <div className='flex flex-wrap flex-row -mx-3'>
                     <div className='lg:w-1/2 w-full px-3' data-aos="fade-up"
                         data-aos-anchor-placement="top-bottom">

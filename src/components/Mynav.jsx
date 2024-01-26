@@ -28,9 +28,9 @@ const Mynav = () => {
                             className={`gap-8 flex mobileView items-center duration-700 ${show ? "right-[-100%]" : "right-0"
                                 }`}>
                             <li>
-                                <a href="" className=' font-poppins text-[#000] text-[15px] font-semibold relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-3px] hover:after:w-[90%] after:left-[50%] transition-all duration-500 after:hover:left-[2px] after:transition-all after:duration-500 hover:after:bg-[#B00000]' onClick={nav}>About </a></li>
-                            <li><a href="" className=' font-poppins text-[#000] text-[15px] font-semibold relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-3px] hover:after:w-[92%] after:left-[50%] transition-all duration-500 after:hover:left-[4px] after:transition-all after:duration-500 hover:after:bg-[#B00000]' onClick={nav}>Blog&News</a></li>
-                            <li><a href="" className=' font-poppins text-[#000] text-[15px] font-semibold relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-3px] hover:after:w-[92%] after:left-[50%] transition-all duration-500 after:hover:left-[2px] after:transition-all after:duration-500 hover:after:bg-[#B00000]' onClick={nav}>Contact </a></li>
+                                <a href="#" className=' font-poppins text-[#000] text-[15px] font-semibold relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-3px] hover:after:w-[90%] after:left-[50%] transition-all duration-500 after:hover:left-[2px] after:transition-all after:duration-500 hover:after:bg-[#B00000]' onClick={nav}>About </a></li>
+                            <li><a href="#" className=' font-poppins text-[#000] text-[15px] font-semibold relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-3px] hover:after:w-[92%] after:left-[50%] transition-all duration-500 after:hover:left-[4px] after:transition-all after:duration-500 hover:after:bg-[#B00000]' onClick={nav}>Blog&News</a></li>
+                            <li><a href="#" className=' font-poppins text-[#000] text-[15px] font-semibold relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-3px] hover:after:w-[92%] after:left-[50%] transition-all duration-500 after:hover:left-[2px] after:transition-all after:duration-500 hover:after:bg-[#B00000]' onClick={nav}>Contact </a></li>
                             <li><div className='block md:hidden'>
                                 <div className='flex items-center gap-6 '>
                                     <p className=' font-poppins text-[#000] text-[15px] font-semibold cursor-pointer relative after:absolute after:w-0 after:h-[3px] hover:after:absolute after:bottom-[-3px] hover:after:w-[90%] after:left-[50%] transition-all duration-500 after:hover:left-[3px] after:transition-all after:duration-500 hover:after:bg-[#B00000]'>Account</p>
@@ -47,20 +47,6 @@ const Mynav = () => {
                                 </div>
                             </div></li>
                         </ul>
-                        <label className=" lg:hidden" onClick={nav}>
-                            {show ? (
-                                <div className="z-20 relative">
-                                    <span className="flex bg-black h-[3px] rounded-3xl duration-300 w-6"></span>
-                                    <span className="flex bg-black h-[3px] rounded-3xl duration-300 w-6 mt-1"></span>
-                                    <span className="flex bg-black h-[3px] rounded-3xl duration-300 w-6 mt-1"></span>
-                                </div>
-                            ) : (
-                                <div className="z-20 relative">
-                                    <span className="flex bg-black absolute rounded-3xl -left-7 duration-300 top-1 rotate-45 h-[3px] w-6"></span>
-                                    <span className="flex bg-black absolute rounded-3xl -left-7 duration-300 -rotate-45 h-[3px] w-6 mt-1"></span>
-                                </div>
-                            )}
-                        </label>
                         <div className='hidden md:block'>
                             <div className='flex items-center gap-6'>
                                 <p className=' font-poppins text-[#000] text-[15px] font-semibold cursor-pointer relative after:absolute after:w-0 after:h-[3px] hover:after:absolute after:bottom-[-3px] hover:after:w-[90%] after:left-[50%] transition-all duration-500 after:hover:left-[3px] after:transition-all after:duration-500 hover:after:bg-[#B00000]'>Account</p>
@@ -76,6 +62,20 @@ const Mynav = () => {
                                 </div>
                             </div>
                         </div>
+                        <label className=" lg:hidden" onClick={nav}>
+                            {show ? (
+                                <div className="z-20 relative">
+                                    <span className="flex bg-black h-[3px] rounded-3xl duration-300 w-6"></span>
+                                    <span className="flex bg-black h-[3px] rounded-3xl duration-300 w-6 mt-1"></span>
+                                    <span className="flex bg-black h-[3px] rounded-3xl duration-300 w-6 mt-1"></span>
+                                </div>
+                            ) : (
+                                <div className="z-20 relative">
+                                    <span className="flex bg-black absolute rounded-3xl -left-7 duration-300 top-1 rotate-45 h-[3px] w-6"></span>
+                                    <span className="flex bg-black absolute rounded-3xl -left-7 duration-300 -rotate-45 h-[3px] w-6 mt-1"></span>
+                                </div>
+                            )}
+                        </label>
                     </div>
                 </div>
 

@@ -215,7 +215,7 @@ const Lemonwares = () => {
 
     return (
         <div className="sm:pt-2">
-            <div className="container max-w-[1097px] mx-auto px-3">
+            <div className="container max-w-[1097px] mx-auto px-3" id="2">
                 <div className="flex justify-center flex-col">
                     <h2 className="text-black font-poppins text-center mx-auto lg:text-[50px] md:text-5xl sm:text-4xl text-[42px] font-semibold leading-[48px] md:leading-[60px]  max-w-[650px]">
                         Ready to get started with Lemon Wares?
