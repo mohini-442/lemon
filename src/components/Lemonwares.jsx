@@ -229,11 +229,11 @@ const Lemonwares = () => {
                                 Monthly
                             </p>
                             <div
-                                className={`relative md:w-[93px] w-[63px] h-[30px] md:h-[50px] sm:ml-8 ml-3 px-[9px] py-[10px] cursor-pointer rounded-[73px] duration-500 ${ toggle ? "bg-black":"bg-[#B00000]"}`}
+                                className={`relative md:w-[93px] w-[63px] h-[30px] md:h-[50px] ml-8  px-[9px] py-[10px] cursor-pointer rounded-[73px] duration-500 ${toggle ? "bg-black" : "bg-[#B00000]"}`}
                                 onClick={btn}
                             >
                                 <div
-                                    className={`bg-white md:h-[30px] h-[20px] md:w-[30px] w-[20px] max-md:top-[20%] absolute rounded-full duration-500 transition-all ${toggle ? "right-[10%]" : "left-[10%]"
+                                    className={`bg-white md:h-[30px] h-[20px] md:w-[30px] w-[20px] max-md:top-[20%] absolute rounded-full duration-500 transition-all ${toggle ? "right-[10%]" : "right-[59%]"
                                         }`}
                                 ></div>
                             </div>

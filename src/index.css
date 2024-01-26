@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-.mobileView {
+/* .mobileView {
     @apply max-lg:w-full max-lg:min-h-full max-lg:flex-col max-lg:bg-[#fff] max-lg:items-center max-lg:justify-center z-20 max-lg:fixed max-lg:top-0
+} */
+
+.mobileView {
+    @apply max-lg:bg-white z-20 max-lg:gap-5 max-lg:fixed max-lg:items-center max-lg:justify-center max-lg:flex-col max-lg:top-0 max-lg:w-full max-lg:h-full duration-300
 }
