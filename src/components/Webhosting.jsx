@@ -25,7 +25,7 @@ const Webhosting = () => {
                             </div>
                             <div className='sm:w-1/3 w-1/2 px-3 flex items-center justify-center'>
                                 <div className='w-[222px] h-[112px] flex items-center justify-center duration-[.5s] hover:shadow-[0px_0px_4px_0px_#00000040]' data-aos="flip-left">
-                                    <img src={imufy} alt="imufy" />
+                                    <img src={imufy} alt="imufy" className='w-[90%]'/>
                                 </div>
                             </div>
                             <div className='sm:w-1/3 w-1/2 px-3 flex items-center justify-center'>

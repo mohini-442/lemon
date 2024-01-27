@@ -19,7 +19,7 @@ const Headersection = () => {
                         </div>
                         {/* <h1> {activeTab} </h1> */}
                         {activeTab === 'tab1' && <p className='fw-bold'>
-                            <h2 className='text-[48px] md:text-[64px] font-poppins font-bold text-[#2E2E2E] lg:max-w-[608px] leading-[55px] sm:leading-[77.5px] text-center lg:text-start pt-4'>Premium Web Hosting for Your Website</h2>
+                            <h2 className='text-[48px] md:text-[64px] font-poppins font-bold text-[#2E2E2E] lg:max-w-[608px] leading-[55px] sm:leading-[70.5px] text-center lg:text-start pt-4'>Premium Web Hosting for Your Website</h2>
                             <p className=' font-inter text-[#808080] text-[16px] font-normal lg:max-w-[408px] sm:pt-10 text-center lg:text-start pt-2'>Blazing fast web hosting for individuals and businesses of all sizes backed by 24x7x365 Support.</p>
                             <div className=' flex gap-5 sm:pt-14 pt-8 justify-center lg:justify-start'>
                                 <button className="relative overflow-hidden font-poppins rounded-[8px] p-[12px] border-[1px] text-[14px] font-normal w-[160px] text-white bg-[#b00000] transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-white before:duration-300 before:ease-out hover:text-[#000] hover:border-[1px] hover:border-[#000] hover:border-solid shadow-[0px_0px_64px_0px_#B000004D] hover:before:h-[68px] hover:before:bg-[#fff] hover:before:w-[160px]">
@@ -31,7 +31,7 @@ const Headersection = () => {
                             </div>
                         </p>}
                         {activeTab === 'tab2' && <p className='fw-bold'>
-                            <h2 className='text-[50px] md:text-[64px] font-poppins font-bold text-[#2E2E2E] lg:max-w-[608px] leading-[77.5px] text-center lg:text-start pt-4'>Premium Web Domain for Your Website</h2>
+                            <h2 className='text-[50px] md:text-[64px] font-poppins font-bold text-[#2E2E2E] lg:max-w-[608px] leading-[55px] sm:leading-[70.5px] text-center lg:text-start pt-4'>Premium Web Domain for Your Website</h2>
                             <p className=' font-inter text-[#808080] text-[16px] font-normal lg:max-w-[408px] pt-10 text-center lg:text-start'>LemonWares saved our time in  Hosting my company page.</p>
                             <div className=' flex gap-5 pt-14 justify-center lg:justify-start'>
                                 <button className='text-white text-[14px] font-normal font-poppins p-[12px] rounded-[8px] bg-[#B00000] shadow-[0px_0px_64px_0px_#B000004D]'>Create an Account</button>
@@ -44,7 +44,7 @@ const Headersection = () => {
                             </div>
                         </p>}
                         {activeTab === 'tab3' && <p className='fw-bold'>
-                            <h2 className='text-[50px] md:text-[64px] font-poppins font-bold text-[#2E2E2E] lg:max-w-[608px] leading-[77.5px] text-center lg:text-start pt-4'>Premium Web SEO for Your Website</h2>
+                            <h2 className='text-[50px] md:text-[64px] font-poppins font-bold text-[#2E2E2E] lg:max-w-[608px] leading-[55px] sm:leading-[70.5px] text-center lg:text-start pt-4'>Premium Web SEO for Your Website</h2>
                             <p className=' font-inter text-[#808080] text-[16px] font-normal lg:max-w-[408px] pt-10 text-center lg:text-start'>Blazing fast web hosting for individuals and businesses of all sizes backed by 24x7x365 Support.</p>
                             <div className=' flex gap-5 pt-14 justify-center lg:justify-start'>
                                 <button className='text-white text-[14px] font-normal font-poppins p-[12px] rounded-[8px] bg-[#B00000] shadow-[0px_0px_64px_0px_#B000004D]'>Create an Account</button>
@@ -57,7 +57,7 @@ const Headersection = () => {
                             </div>
                         </p>}
                         {activeTab === 'tab4' && <p className='fw-bold'>
-                            <h2 className='text-[50px] md:text-[64px] font-poppins font-bold text-[#2E2E2E] lg:max-w-[608px] leading-[77.5px] text-center lg:text-start pt-4'>Premium Web Hosting for Your Website</h2>
+                            <h2 className='text-[50px] md:text-[64px] font-poppins font-bold text-[#2E2E2E] lg:max-w-[608px] leading-[55px] sm:leading-[70.5px] text-center lg:text-start pt-4'>Premium Web Hosting for Your Website</h2>
                             <p className=' font-inter text-[#808080] text-[16px] font-normal lg:max-w-[408px] pt-10 text-center lg:text-start'>Blazing fast emil for individuals and businesses of all sizes backed by 24x7x365 Support.</p>
                             <div className=' flex gap-5 pt-14 justify-center lg:justify-start'>
                                 <button className='text-white text-[14px] font-normal font-poppins p-[12px] rounded-[8px] bg-[#B00000] shadow-[0px_0px_64px_0px_#B000004D]'>Create an Account</button>
@@ -70,7 +70,7 @@ const Headersection = () => {
                             </div>
                         </p>}
                     </div>
-                    <div className='lg:w-1/2 w-full px-3 pt-8 sm:pt-16 lg:pt-0 flex items-center justify-center'>
+                    <div className='lg:w-1/2 w-full px-3 pt-8 sm:pt-14 lg:pt-0 flex items-center justify-center'>
                         <img src={headerimg} alt="headerimg" className='w-[90%] lg:w-[80%]' />
                     </div>
                 </div>

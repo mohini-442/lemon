@@ -26,9 +26,6 @@ const Loader = () => {
                         <img src={logo} alt="logo" className="zoom-in-out-box" />
                         <p className=" text-black font-roboto sm:text-[23px] font-poppins text-xl font-bold pt-6 zoom-in-out-box">Lemon Wares</p>
                     </div>
-                    <div>
-
-                    </div>
                 </section>
             ) : (
                 ""
